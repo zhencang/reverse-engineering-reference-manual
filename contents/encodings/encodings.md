@@ -13,15 +13,15 @@ __The Interface Between Software And Hardware__
 ### *<p align='center'> section overview </p>*
 ---
 * [String Encoding](String_Encoding.md)
-  * [ASCII](String_Encoding.md#)
-  * [Unicode](String_Encoding.md#)
-  * [Cause Of Garbled Text](String_Encoding.md#)
+  * [ASCII](String_Encoding.md#-ascii-)
+  * [Unicode](String_Encoding.md#-unicode-)
+  * [Cause Of Garbled Text](String_Encoding.md#-cause-of-garbled-text-)
 * [Data Encoding](Data_Encoding.md)
-  * [Overview](Data_Encoding.md#)
-  * [PE File In Memory](Data_Encoding.md#)
-  * [Virtual Address(VA) To File Offset Translation](Data_Encoding.md#)
-  * [DOS Header](Data_Encoding.md#)
-  * [PE Header (IMAGE_NT_HEADERS)](Data_Encoding.md#)
+  * [Definition](Data_Encoding.md#-definition-)
+  * [Caesar Cipher](Data_Encoding.md#-caesar-cipher-)
+  * [Single-Byte XOR Encoding](Data_Encoding.md#-single-byte-xor-encoding-)
+  * [Other Simple Encoding Scheme](Data_Encoding.md#-other-simple-encoding-scheme-)
+  * [Base64](Data_Encoding.md#-base64-)
 
 ---
 ### *<p align='center'> further readings </p>*

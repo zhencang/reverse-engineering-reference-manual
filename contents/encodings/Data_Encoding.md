@@ -31,7 +31,7 @@
   * the original key is applied at one side of the plaintext and the encoded output character is used as the key for the next character
 
 ---
-#### *<p align='center'> Data Encoding Example (Base64) </p>*
+#### *<p align='center'> Base64 </p>*
 ---
 * Encodes binary data into character set of 64 ASCII characters
 * Most common character set is MIME’s Base64, whose table consists of A-Z, a-z, and 0-9 for the first 62 values and + / for the last 2 values
