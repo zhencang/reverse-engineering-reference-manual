@@ -25,3 +25,6 @@
 #### *<p align='center'> Number of Cores </p>*
 ---
 * The number of cores under emulation could be smaller than the number of cores on the host machine
+
+#
+<p align='center'><a href="Anti-Debugging.md">Anti-Debugging</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Bonus.md">Bonus</a></p>
