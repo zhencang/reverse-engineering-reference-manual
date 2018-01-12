@@ -8,4 +8,4 @@
 * [REpsych's Github Repo](https://github.com/xoreaxeaxeax/REpsych)
 
 #
-<p align='center'><a href="Anti-Emulation.md">Anti-Emulation</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="contents/encodings/encodings.md">.encodings</a></p>
+<p align='center'><a href="Anti-Emulation.md">Anti-Emulation</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="/contents/encodings/encodings.md">.encodings</a></p>

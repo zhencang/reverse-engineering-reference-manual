@@ -31,4 +31,4 @@
       * Load will push the value it indexed onto the stack and store will store the value at the top of the stack into the indexed object
 
 #
-<p align='center'><a href="C++_Reversing.md">C++ Reversing</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="contents/file-formats/file-formats.md">.file-formats</a></p>
+<p align='center'><a href="C++_Reversing.md">C++ Reversing</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="/contents/file-formats/file-formats.md">.file-formats</a></p>
