@@ -99,8 +99,9 @@
 * __Table Interpretation__: loads an array with call destinations and junk data. Instead of directly calling those functions, call them indirectly by indexing the array  
 
 ---
-#### *<p align='center'> Imported Function Obfuscation (makes it difficult to determine which shared libraries or library functions are used) </p>*
+#### *<p align='center'> Imported Function Obfuscation </p>*
 ---
+* Makes it difficult to determine which shared libraries or library functions are used
 * Have the program’s import table be initialized by the program itself. The program itself loads any additional libraries it depends on, and once the libraries are loaded, the program locates any required functions within those libraries
 * (Windows) use LoadLibrary function to load required libraries by name and then perform function address lookups within each library using GetProcAddress
 * (Linux) use dlopen function to load the dynamic shared object and use dlsym function to find the address of a specific function within the shared object

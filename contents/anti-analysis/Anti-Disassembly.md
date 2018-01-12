@@ -1,7 +1,7 @@
 ### [.anti-analysis](anti-analysis.md)[__Anti-Disassembly__]
 
 ---
-#### *<p align='center'> Disassembly Technique </p>*
+#### *<p align='center'> Disassembly Techniques </p>*
 ---
 * Ways to disassemble machine code
 * __Linear Disassembly__: disassembling one instruction at a time linearly. Problem: code section of nearly all binaries will also contain data that isn’t instructions 
