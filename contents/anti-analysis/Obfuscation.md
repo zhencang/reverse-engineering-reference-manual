@@ -105,3 +105,6 @@
 * Have the program’s import table be initialized by the program itself. The program itself loads any additional libraries it depends on, and once the libraries are loaded, the program locates any required functions within those libraries
 * (Windows) use LoadLibrary function to load required libraries by name and then perform function address lookups within each library using GetProcAddress
 * (Linux) use dlopen function to load the dynamic shared object and use dlsym function to find the address of a specific function within the shared object
+
+#
+<p align='center'><a href="anti-analysis.md">.anti-analysis</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Disassembly.md">Anti-Disassembly</a></p>

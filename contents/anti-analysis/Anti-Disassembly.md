@@ -46,3 +46,6 @@
   * __ELF Header Modification__: inserting false information into ELF Header to discourage analysis
     * Simply zero-ing out information regarding section headers table in the ELF Header (e_shoff, e_shentsize, e_shnum, e_shstrndx) can make tools such as readelf and Radare2 unable to display sections even though Section Headers Table still exists within the binary
     * The 6th byte of the ELF Header is EI_DATA, residing within e_ident array, which makes up the first 16 bytes of the ELF Header. EI_DATA specifies the data encoding of the processor-specific data in the file (unknown, little-endian, big-endian). Modifying EI_DATA after compilation will not affect program execution, but will make tools such as readelf, gdb, and radare2 to not work properly since they use this value to interpret the binary
+
+#
+<p align='center'><a href="Obfuscation.md">Obfuscation</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Debugging.md">Anti-Debugging</a></p>

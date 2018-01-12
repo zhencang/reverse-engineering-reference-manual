@@ -67,3 +67,6 @@
 * Make it harder to find anti-debugging checks, anti-debugging checks can be placed in code that executes before main()
 * __TLS Callbacks (Windows)__: most debuggers start at the program’s entry point as defined by the PE header. TlsCallback is traditionally used to initialze thread-specific data before a thread runs, so TlsCallback is called before the entry point and therefore can execute secretly in a debugger
 * In C, function using the "constructor" attribute will execute before main()
+
+#
+<p align='center'><a href="Anti-Disassembly.md">Anti-Disassembly</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Emulation.md">Anti-Emulation</a></p>

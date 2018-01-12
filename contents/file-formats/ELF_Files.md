@@ -61,11 +61,14 @@
 #### *<p align='center'> Useful Tools To Analyze ELF File </p>*
 ---
 * __Useful Tools To Analyze ELF File__: 
-  + display section headers: __readelf -S &lt;file&gt;__
-  + display program headers and section to segment mapping: __readelf -l &lt;file&gt;__
-  + display symbol tables: __readelf --syms &lt;file&gt;__ or __objdump -t &lt;file&gt;__
-  + display a section's content: __objdump -s -j &lt;section name&gt; &lt;file&gt;__
-  + trace library call: __ltrace -f &lt;file&gt;__
-  + trace sys call: __strace -f &lt;file&gt;__
-  + decompile: check out __https://retdec.com/__
-  + view a running program's process address space: __/proc/$pid/maps__
+  * display section headers: __readelf -S &lt;file&gt;__
+  * display program headers and section to segment mapping: __readelf -l &lt;file&gt;__
+  * display symbol tables: __readelf --syms &lt;file&gt;__ or __objdump -t &lt;file&gt;__
+  * display a section's content: __objdump -s -j &lt;section name&gt; &lt;file&gt;__
+  * trace library call: __ltrace -f &lt;file&gt;__
+  * trace sys call: __strace -f &lt;file&gt;__
+  * decompile: check out __https://retdec.com/__
+  * view a running program's process address space: __/proc/$pid/maps__
+
+#
+<p align='center'><a href="file-formats.md">.file-formats</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>

@@ -42,3 +42,6 @@
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/encodings/Data_Encoding/base64_conversion.png"> 
 <p align='center'><sub><strong>base64 conversion</strong></sub></p>
 </div>
+
+#
+<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/README.md#table-of-contents">RERM</a></p>
