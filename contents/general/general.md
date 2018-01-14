@@ -1,10 +1,5 @@
 ## *<p align='center'>.general</p>*
 
-<div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/reorganize/images/general/malwareunicorn_bikeloop.gif" width="500" height="430"> 
-<p align='center'><sub><strong>gif from Malware Unicorn's <a href="https://securedorg.github.io/RE101/intro/">Reverse Engineering Malware 101</a></strong></sub></p>
-</div>
-
 __Why Reverse Engineering?__
 * [personal motivation](https://gist.github.com/yellowbyte/cb45efbb2fe05b631455b7523ebd1ff3)
 * [the science of man-made things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
