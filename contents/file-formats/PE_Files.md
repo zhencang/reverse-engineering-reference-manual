@@ -28,7 +28,7 @@
 #### *<p align='center'> DOS Header </p>*
 ---
 * Starts at offset 0. The 2 fields of interest in the DOS header are __e_magic__ and __e_lfanew__. __e_magic__ contains the magic number 0x5A4D (MZ). __e_lfanew__ contains PE header's file offset
-  * __e_lfanew__ field is necessary since between DOS Header and PE Header is the DOS Stub, which for backward compatibility prints "This program cannot be run in DOS mode" if a 32-bit PE file is ran in a 16-bit DOS environment
+* __e_lfanew__ field is necessary since between DOS Header and PE Header is the DOS Stub, which for backward compatibility prints "This program cannot be run in DOS mode" if a 32-bit PE file is ran in a 16-bit DOS environment
 
 ---
 #### *<p align='center'> PE Header (IMAGE_NT_HEADERS) </p>*

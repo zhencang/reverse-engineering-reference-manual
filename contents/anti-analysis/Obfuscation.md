@@ -3,7 +3,7 @@
 ---
 #### *<p align='center'> Definition </p>*
 ---
-* __Definition__: Program transformation techniques that output a program that is semantically equivalent (execute the same) to the original program but is more difficult to analyze
+* Program transformation techniques that output a program that is semantically equivalent (execute the same) to the original program but is more difficult to analyze
 
 ---
 #### *<p align='center'> Original Entry Point (OEP) Hiding </p>*
