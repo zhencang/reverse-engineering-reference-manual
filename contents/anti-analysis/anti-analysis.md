@@ -46,7 +46,7 @@
 ---
 ### *<p align='center'> further readings </p>*
 ---
-*work in progress...*
+* [The "Ultimate" Anti-Debugging Reference](http://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf): a comprehensive Windows anti-debugging guide by Peter Ferrie 
 
 #
 <p align='center'><a href="/contents/file-formats/file-formats.md">.file-formats</a> <~ <a href="/README.md#table-of-contents">RERM</a> ~> <a href="/contents/encodings/encodings.md">.encodings</a></p>

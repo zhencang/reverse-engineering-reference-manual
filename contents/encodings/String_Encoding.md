@@ -4,7 +4,6 @@
 #### *<p align='center'> ASCII </p>*
 ---
 * String encoding that maps a byte to an English character, a special character, or a number
-  * [ASCII Table](http://www.asciitable.com/)
   * Out of the 128 characters defined in ASCII, only 95 of them are human-readable
   * ASCII used 7 bits only, but the extra bit is still not enough to encode all the other languages
 
