@@ -25,7 +25,7 @@
 ### *<p align='center'> further readings </p>*
 ---
 * [Kaitai Struct](http://kaitai.io/): a declarative language for visualizing binary file formats. Once you describes a file format in Kaitai Struct you can compile it into one of the supported languages. The compiled module will expose a straightforward API to access fields in that file format
-* [Visual Reverse Engineering](https://www.youtube.com/watch?v=4bM3Gut1hIk): With binary visualization, it doesn't need to know how to parse the file format but each file format will have its own unique form. Peculiarities within the same file format (e.g. packed vs not packed PE executable) will also cause resulting visualizations to differ, allowing you to identify the peculiar traits. An example of a popular, free-to-use binary visualization tool is [VELES](https://codisec.com/veles/)
+* [Visual Reverse Engineering](https://www.youtube.com/watch?v=4bM3Gut1hIk): with binary visualization, it doesn't need to know how to parse the file format but each file format will have its own unique visualization. Peculiarities within the same file format (e.g. packed vs not packed PE executable) will also cause resulting visualizations to differ, allowing you to identify the peculiar traits. An example of a popular, free-to-use binary visualization tool is [VELES](https://codisec.com/veles/)
 
 #
 <p align='center'><a href="/contents/languages/languages.md">.languages</a> <~ <a href="/README.md#table-of-contents">RERM</a> ~> <a href="/contents/anti-analysis/anti-analysis.md">.anti-analysis</a></p>
