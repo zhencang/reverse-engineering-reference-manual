@@ -44,4 +44,4 @@
 </div>
 
 #
-<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/int_0x7374617274">int 0x7374617274</a></p>
+<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/int_0x7374617274.md">int 0x7374617274</a></p>
