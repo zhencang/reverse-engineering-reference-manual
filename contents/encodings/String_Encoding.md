@@ -22,4 +22,4 @@
 * Reading a byte sequence using the wrong encoding scheme
 
 #
-<p align='center'><a href="encodings.md">.encodings</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="Data_Encoding.md">Data Encoding</a></p>
+<p align='center'><a href="/contents/anti-analysis/Bonus.md">Bonus</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="Data_Encoding.md">Data Encoding</a></p>

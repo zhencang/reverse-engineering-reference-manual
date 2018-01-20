@@ -56,4 +56,4 @@
 * __x__ to show cross-references
 
 #
-<p align='center'><a href="tools.md">.tools</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="GDB_Tips.md">GDB_Tips</a></p>
+<p align='center'><a href="/contents/general/int_0x7374617274.md">int 0x7374617274</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="GDB_Tips.md">GDB_Tips</a></p>

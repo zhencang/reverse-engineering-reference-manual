@@ -64,9 +64,9 @@
 * display symbol tables: __readelf --syms &lt;file&gt;__ or __objdump -t &lt;file&gt;__
 * display a section's content: __objdump -s -j &lt;section name&gt; &lt;file&gt;__
 * trace library call: __ltrace -f &lt;file&gt;__
-* trace sys call: __strace -f &lt;file&gt;__
-* decompile: check out __https://retdec.com/__
+* trace system call: __strace -f &lt;file&gt;__
+* decompile: check out __[RetDec](https://retdec.com/)__
 * view a running program's process address space: __/proc/$pid/maps__
 
 #
-<p align='center'><a href="file-formats.md">.file-formats</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>
+<p align='center'><a href="/contents/languages/Python_Reversing.md">Python Reversing</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>

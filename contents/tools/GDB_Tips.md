@@ -86,4 +86,4 @@
 </div>
 
 #
-<p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/instruction-sets.md">.instruction-sets</a></p>
+<p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>
