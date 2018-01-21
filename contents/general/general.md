@@ -1,5 +1,9 @@
 ## *<p align='center'>.general</p>*
 
+<div align='center'> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/general/Introduction.PNG"> 
+</div>
+
 __What Is Reverse Engineering?__
 * [the science of man-made things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
 
