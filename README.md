@@ -2,7 +2,7 @@
 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/heading/magic.gif"> 
-<p align='center'><sub><strong>It's magic when you don't understand how it works. It's magical when you finally understood it</strong></sub></p>
+<p align='center'><sub><strong>It's magic when you don't understand how it works. It's magical when all the little pieces click in your head and you finally understood it </strong></sub></p>
 </div>
 
 # .table-of-contents

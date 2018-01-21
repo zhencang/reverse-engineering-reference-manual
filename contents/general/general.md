@@ -2,10 +2,12 @@
 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Introduction.PNG"> 
+<p align='center'><sub><strong><a href="https://gist.github.com/yellowbyte/e5366b5f28be7a0a33749fe664cc95cb">semantic insight vs implementation detail</a></strong></sub></p>
 </div>
 
-__What Is Reverse Engineering?__
-* [the science of man-made things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
+__Why Reverse Engineering?__
+* [Personal motivation](https://gist.github.com/yellowbyte/cb45efbb2fe05b631455b7523ebd1ff3)
+* [It's the science of man-made things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
 
 ---
 ### *<p align='center'> section overview </p>*
