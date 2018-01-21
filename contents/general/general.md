@@ -1,7 +1,7 @@
 ## *<p align='center'>.general</p>*
 
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/general/Introduction.PNG"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Introduction.PNG"> 
 </div>
 
 __What Is Reverse Engineering?__
