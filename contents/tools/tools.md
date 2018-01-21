@@ -6,7 +6,7 @@
 </div>
 
 __The Power Of Two__
-* When reversing a target, you will likely run various basic static analysis, dynamic analysis, and/or automation tools to identify point of interests for further manual analysis. Once you identified all the point of interests, the majority of your time will be spent inside a disassembler and a debugger to try to figure out if any of those point of interests leads you closer to your goal (e.g. finding exploitable bugs). As a result, at least __know how to use a disassembler and a debugger well__.
+* When reversing a target, you will likely run various basic static analysis, dynamic analysis, and/or automation tools to identify points of interest for further manual analysis. Some of those tools may also be ran throughout the reversing process to ascertain particular suspicion, but either way, you will be spending the majority of your time inside a disassembler and a debugger. As a result, at least __know how to use a disassembler and a debugger well__.
 
 __Be Cautious...__
 * Never be too reliant on any one tool. For most popular tools, depending on their usages, there are ways to detect their presences (e.g. if gdb is detected, divert from normal execution), hide certain program properties from them, or make them not function properly. 
