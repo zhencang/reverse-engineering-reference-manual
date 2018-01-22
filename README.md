@@ -2,7 +2,7 @@
 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/heading/magic.gif"> 
-<p align='center'><sub><strong>It's magic when you don't understand how it works. It's magical when all the little pieces click in your head and you finally understood it. Even though the goal of this repository is to serve as a reference manual, it is also my intention to help people that want to learn reverse engineering to gain a better overall picture of this field by understanding and connecting the different facets that make up reverse engineering</strong></sub></p>
+<p align='center'><sub><strong>It's magic when you don't understand how it works. It's magical when all the little pieces click in your head and you finally understood it. Even though the goal of this repository is to serve as a reference manual, it is also my intention to help people that want to learn reverse engineering to gain a better overall picture of this field by understanding and connecting the different little pieces that make up reverse engineering</strong></sub></p>
 </div>
 
 # .table-of-contents
