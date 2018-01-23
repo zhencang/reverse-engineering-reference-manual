@@ -1,15 +1,15 @@
 ## *<p align='center'>.tools</p>*
 
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/reorganize/images/tools/tools.jpg" width="500" height="430"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/tools.jpg" width="500" height="430"> 
 <p align='center'><sub><strong>drawing by <a href="http://www.leejohnphillips.com/">Lee John Phillips</a></strong></sub></p>
 </div>
 
 __The Power Of Two__
-* When reversing a target, you will likely run various basic static analysis, dynamic analysis, and/or automation tools to identify points of interest for further manual analysis. Some of those tools may also be ran throughout the reversing process to ascertain particular suspicion, but either way, you will be spending the majority of your time inside a disassembler and a debugger. As a result, at least __know how to use a disassembler and a debugger well__.
+* When reversing a target, you will likely run various basic static analysis, dynamic analysis, and/or automation tools to identify points of interest for further manual analysis. Some of those tools may also be ran throughout the reversing process to ascertain particular suspicion, but either way, you will be spending the majority of your time inside a disassembler and a debugger. As a result, at least __know how to use a [disassembler](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/tools/IDA_Tips.md) and a [debugger](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/tools/GDB_Tips.md) well__.
 
 __Be Cautious...__
-* Never be too reliant on any one tool. For most popular tools, depending on their usages, there are ways to detect their presences (e.g. if gdb is detected, divert from normal execution), hide certain program properties from them, or make them not function properly. 
+* Never be too reliant on any one tool. For most popular tools, depending on their usages, there are ways to [detect their presences](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/anti-analysis/Anti-Debugging.md#-using-functions-from-dynamically-linked-libraries-to-detect-debuggers-presence-), [hide certain program properties from them](http://www.hexacorn.com/blog/2018/01/04/yet-another-way-to-hide-from-sysinternals-tools/), or [make them not function properly](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/anti-analysis/Anti-Disassembly.md#-parser-differential-attack-file-format-hacks-). 
 
 ---
 ### *<p align='center'> section overview </p>*
