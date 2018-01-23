@@ -6,8 +6,8 @@
 </div>
 
 __Why Reverse Engineering?__
-* [Personal motivation](https://gist.github.com/yellowbyte/cb45efbb2fe05b631455b7523ebd1ff3)
-* [It's the science of man-made things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
+* [Personal Motivation](https://gist.github.com/yellowbyte/cb45efbb2fe05b631455b7523ebd1ff3)
+* [Science of Man-Made Things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
 
 ---
 ### *<p align='center'> section overview </p>*
