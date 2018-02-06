@@ -6,7 +6,9 @@
 </div>
 
 __Why Reverse Engineering?__
+
 [Personal Motivation](https://gist.github.com/yellowbyte/cb45efbb2fe05b631455b7523ebd1ff3)
+
 [Science of Man-Made Things](https://medium.com/@againsthimself/in-defense-of-reverse-engineering-e07fe19b26c)
 
 ---
