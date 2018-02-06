@@ -42,6 +42,10 @@
 ---
 * Manually adding/setting interrupts to the code to help detect present of a debugger
 * __False Software Breakpoints__: a breakpoint is created by overwriting the first byte of instruction with an int3 opcode (0xcc). To setup a false breakpoint then we simply insert int3 into the code. This raises a SIGTRAP signal when int3 is executed. If our code has a signal handler for SIGTRAP, the handler will be executed before resuming to the instruction after int3. But if the code is under the debugger, the debugger will catch the SIGTRAP signal instead and might not pass the signal back to the program, resulting in the signal handler not being executed
+<div align='center'> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/anti-analysis/Anti-Debugging/sigtrap.png"> 
+<p align='center'><sub><strong>bypassing False Software Breakpoints with gdb</strong></sub></p>
+</div>
 * __False Memory Breakpoints__: Create a dynamic buffer and write the opcode for ret instruction in it. Manually change the permission of the page the buffer is in to guard. Pushes a return address to the stack before jumping to that dynamic buffer. If execution transfer control to that return address, then the program knows that it's under the context of a debugger since STATUS_GUARD_PAGE_VIOLATION exception was absorbed by the debugger 
 * __Two Byte Interrupt 3__: instead of 0xCC, it's 0xCD 0x03. Can also be used as false breakpoint
 * __Interrupt 0x2C__: raises a debug assertion exception. This exception is consumed by WinDbg 
@@ -50,10 +54,6 @@
 * __ICEBP (0xF1)__: generates a single step exception
 * __Trap Flag Check__: Trap Flag is part of the EFLAGS register. IF TF is 1, CPU will generate Single Step exception(int 0x01h) after executing an instruction. Trap Flag can be manually set to cause next instruction to raise an exception. If the process is running under the context of a debugger, the debugger will not pass the exception to the program so the exception handler will never be ran
 * __Stack Segment__: when you operate on SS (e.g. mov ss, pop ss), CPU will lock all interrupts until the end of the next instruction. Therefore, if you are single-stepping through it with a debugger, the debugger will not stop on the next instruction but the instruction after the next one. One way to detect debugger is for the next instruction after a write to SS to be pushfd. Since the debugger did not stop there, it will not clear the trap flag and pushfd will push the value of trap flag (plus rest of EFLAGS) onto the stack
-<div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/anti-analysis/Anti-Debugging/sigtrap.png"> 
-<p align='center'><sub><strong>bypassing False Software Breakpoints with gdb</strong></sub></p>
-</div>
 
 ---
 #### *<p align='center'> Timing Checks </p>*

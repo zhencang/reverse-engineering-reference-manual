@@ -1,5 +1,8 @@
 ## *<p align='center'>.file-formats</p>*
 
+__Everything Is Structured. You Just Don't Know It Yet__
+Thousands, if not millions, of different file formats are in the wild. There are file formats for images (e.g. JPEG, PNG, GIF), file formats for sounds (e.g. WAV, MP3, OPUS), and also proprietary file formats for specific software products. As a reverse engineer, you are mostly only interested in executable file formats such as [ELF](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/file-formats/ELF_Files.md) and [PE](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/file-formats/PE_Files.md), but at times you will also want to understand [what information is stored in a proprietary file format](https://hackernoon.com/reverse-engineering-visual-novels-101-d0bc3bf7ab8). Despite the sheer numbers of different file formats, all of them have one thing in common: they tell us where specific information is stored so a corresponding software will know where to parse for the relevant data. For example, image viewing software like Windows Photo Viewer will need to understand PNG file format so it knows how to retrieve the encoded image. 
+
 ---
 ### *<p align='center'> section overview </p>*
 ---
@@ -25,7 +28,7 @@
 ### *<p align='center'> further readings </p>*
 ---
 * [Kaitai Struct](http://kaitai.io/): a declarative language for visualizing binary file formats. Once you describes a file format in Kaitai Struct you can compile it into one of the supported languages. The compiled module will expose a straightforward API to access fields in that file format
-* [Visual Reverse Engineering](https://www.youtube.com/watch?v=4bM3Gut1hIk): with binary visualization, it doesn't need to know how to parse the file format but each file format will have its own unique visualization. Peculiarities within the same file format (e.g. packed vs not packed PE executable) will also cause resulting visualizations to differ, allowing you to identify the peculiar traits. An example of a popular, free-to-use binary visualization tool is [VELES](https://codisec.com/veles/) and [binvis](http://binvis.io/#/)
+* [Visual Reverse Engineering](https://www.youtube.com/watch?v=4bM3Gut1hIk): with binary visualization, it doesn't need to know how to parse the file format to provide useful information about the file that it's analyzing. Binary visualization not only can tells apart different file formats, it can also uncovers peculiarities within the same file format (e.g. packed vs not packed PE executable). [VELES](https://codisec.com/veles/) and [binvis](http://binvis.io/#/) are examples of popular free-to-use binary visualization tools
 
 #
 <p align='center'><a href="/contents/languages/languages.md">.languages</a> <~ <a href="/README.md#table-of-contents">RERM</a> ~> <a href="/contents/anti-analysis/anti-analysis.md">.anti-analysis</a></p>
