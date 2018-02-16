@@ -15,7 +15,7 @@
       ```gdb
       (gdb) run argument1 argument2 < file
       ```
-    * content of file will be passed to debugged program's stdin
+  * content of file will be passed to debugged program's stdin
 
 ---
 #### *<p align='center'> Automation </p>*

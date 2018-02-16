@@ -41,9 +41,11 @@
 </div>
 
 ---
-#### *<p align='center'> Saving Memory Snapshot From Your Debugger Session </p>*
+#### *<p align='center'> Graphs </p>*
 ---
-* Debugger -> Take Memory Snapshot -> All Segments
+* All the available graphs (beside 'proximity browser') can be found in 'View' -> 'Graphs'
+  * Proximity browser can be found in 'View' -> 'Open subviews'
+* When we hear IDA Graphs, most of us first thought of 'Graph View', which shows how basic blocks of the function the mouse cursor is on relate to each other, but IDA also provides many other graphs that helps us understand how functions in the binary relate to each other. The former helps us understand how a function works while the latter helps us understand how the program works. We will take a look at those other graphs below 
 
 ---
 #### *<p align='center'> Useful Shortcuts </p>*
@@ -56,4 +58,4 @@
 * __x__ to show cross-references
 
 #
-<p align='center'><a href="/contents/general/int_0x7374617274.md">int 0x7374617274</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="GDB_Tips.md">GDB_Tips</a></p>
+<p align='center'><a href="/contents/general/miscellaneous.md">miscellaneous</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="GDB_Tips.md">GDB_Tips</a></p>

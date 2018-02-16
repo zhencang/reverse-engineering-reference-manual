@@ -3,8 +3,10 @@
 ---
 #### *<p align='center'> Disassembly Techniques </p>*
 ---
-* __Linear Disassembly__: disassembling one instruction at a time linearly. Problem: code section of nearly all binaries will also contain data that isn’t instructions 
-* __Flow-Oriented Disassembly__: for conditional branch, it will process false branch first and note to disassemble true branch later. For unconditional branch, it will add destination to the end of list of places to disassemble in future and then disassemble from that list. For call instruction, most will disassemble the bytes after the call first and then the called location. If there is conflict between the true and false branch when disassembling, disassembler will trust the one it disassembles first
+* __Linear Sweep__: disassembling one instruction at a time linearly. Problem: code section of nearly all binaries will also contain data that isn’t instructions 
+* __Recursive Descent__: disassembling program based on control flow 
+  * __Example Implementation__: for conditional branch, it will process false branch first and note to disassemble true branch later. For unconditional branch, it will add destination to the end of list of places to disassemble in future and then disassemble from that list. For call instruction, most will disassemble the bytes after the call first and then the called location. If there is conflict between the true and false branch when disassembling, disassembler will trust the one it disassembles first
+* [Binary Ninja disassembler uses both linear sweep and recursive descent to identify functions](https://binary.ninja/2017/11/06/architecture-agnostic-function-detection-in-binaries.html)
 
 ---
 #### *<p align='center'> Disassembly Desynchronization </p>*

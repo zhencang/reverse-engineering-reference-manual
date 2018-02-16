@@ -1,7 +1,7 @@
 ## *<p align='center'>.tools</p>*
 
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/tools.jpg" width="500" height="430"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/tools.jpg" width="375" height="322"> 
 <p align='center'><sub><strong>drawing by <a href="http://www.leejohnphillips.com/">Lee John Phillips</a></strong></sub></p>
 </div>
 
@@ -17,7 +17,7 @@ __Be Cautious...__
 * [IDA Tips](IDA_Tips.md)
   * [Addresses Shown In IDA](IDA_Tips.md#-addresses-shown-in-ida-)
   * [Import Address Table (IAT)](IDA_Tips.md#-import-address-table-iat-)
-  * [Saving Memory Snapshot From Your Debugger Session](IDA_Tips.md#-saving-memory-snapshot-from-your-debugger-session-)
+  * [Graphs](IDA_Tips.md#-graphs-)
   * [Useful Shortcuts](IDA_Tips.md#-useful-shortcuts-)
 * [GDB Tips](GDB_Tips.md)
   * [Changing Default Settings](GDB_Tips.md#-changing-default-settings-)

@@ -3,7 +3,7 @@
 # .table-of-contents
 
 * [.general](contents/general/general.md)
-  * [int 0x7374617274](contents/general/int_0x7374617274.md)
+  * [miscellaneous](contents/general/miscellaneous.md)
 * [.tools](contents/tools/tools.md)
   * [IDA Tips](contents/tools/IDA_Tips.md)
   * [GDB Tips](contents/tools/GDB_Tips.md)

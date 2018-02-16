@@ -15,6 +15,7 @@
   * Program behavior that mimics the way system loader loads a executable file into memory
 * __How To Hide From Detection__: 
   * Instead of encrypting/packing the whole binary, only encrypt/pack a small section of it (e.g. .text section) to avoid high file entropy
+  * Polymorphism: avoid fingerprinting by creating a different but semantically the same unpacking stub every time the packer is used
 
 ---
 #### *<p align='center'> Functions In/Out-Lining </p>*
