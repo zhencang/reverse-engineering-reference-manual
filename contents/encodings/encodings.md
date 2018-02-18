@@ -1,7 +1,7 @@
 ## *<p align='center'>.encodings</p>*
 
 __Our World In 0s and 1s__
-* [File format](https://twitter.com/MalwareTechBlog/status/959925068196294656a) tells us where specific information is stored in current file. On the other hand, encoding tells us how a specific information is stored with just 0s and 1s. There are encoding schemes for [English words](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/encodings/String_Encoding.md), [machine instructions](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/instruction-sets/instruction-sets.md), and many more. Although its main purpose is for storing information, encoding can also be used to [hide information](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/encodings/Data_Encoding.md).
+* [File format](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md) tells us where specific information is stored. On the other hand, encoding tells us how a specific information is stored with just 0s and 1s. There are encoding schemes for [English words](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/encodings/String_Encoding.md), [machine instructions](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/instruction-sets/instruction-sets.md), and many more. Although it's usually referring to storing information, encoding can also be used to [hide information](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/encodings/Data_Encoding.md).
 
 ---
 ### *<p align='center'> section overview </p>*
