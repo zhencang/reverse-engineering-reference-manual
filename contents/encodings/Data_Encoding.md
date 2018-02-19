@@ -11,7 +11,7 @@
 ---
 * Formed by shifting the letters of alphabet fixed numbers of characters to the left or right to encode
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/encodings/Data_Encoding/caesar_cipher.jpg"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/encodings/Data_Encoding/caesar_cipher.jpg" width="470" height="370"> 
 <p align='center'><sub><strong>caesar cipher by shifting alphabet 3 letters to the right to encode</strong></sub></p>
 </div>
 
