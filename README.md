@@ -1,7 +1,7 @@
 # <p align='center'> Reverse Engineering Reference Manual (beta) </p>
 
 * [.general](contents/general/general.md)
-  * [miscellaneous](contents/general/miscellaneous.md)
+  * [Miscellaneous](contents/general/Miscellaneous.md)
 * [.tools](contents/tools/tools.md)
   * [IDA Tips](contents/tools/IDA_Tips.md)
   * [GDB Tips](contents/tools/GDB_Tips.md)

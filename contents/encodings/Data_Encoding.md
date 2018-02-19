@@ -28,9 +28,9 @@
 ---
 #### *<p align='center'> Other Simple Encoding Scheme </p>*
 ---
-* __ROL, ROR__: Instructions rotate the bits within a byte right or left
+* __ROL, ROR__: instructions rotate the bits within a byte right or left
 * __Multibyte__: XOR key is multibyte
-* __Chained or Loopback__: Use content itself as part of the key
+* __Chained or Loopback__: use content itself as part of the key
   * the original key is applied at one side of the plaintext and the encoded output character is used as the key for the next character
 
 ---
@@ -47,4 +47,4 @@
 </div>
 
 #
-<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/miscellaneous.md">miscellaneous</p>
+<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/Miscellaneous.md">Miscellaneous</p>

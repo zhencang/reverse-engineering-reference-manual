@@ -1,4 +1,4 @@
-### [.general](general.md)[__miscellaneous__]
+### [.general](general.md)[__Miscellaneous__]
 
 ---
 #### *<p align='center'> Threads </p>*
@@ -9,7 +9,7 @@
 * For a multi-core CPU, a multi-threaded process can have all its threads running on the same core or splitted between different cores. The decision for which core a thread will run on is made by the OS
 * Each thread will have its own registers set and stack
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/4_01_ThreadDiagram.png" width="469" height="270">
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/4_01_ThreadDiagram.png" width="469" height="270">
 <p align='center'><sub><strong>single threaded vs multi-threaded process</strong></sub></p>
 </div>
 
@@ -19,7 +19,7 @@
 * Entry point of a binary (start function) is not main. A program's startup code (how main is set up and called) depends on the compiler and the platform that the binary is compiled for
 * For C binary compiled by gcc, [crt0](https://en.wikipedia.org/wiki/Crt0) is usually linked into the program to perform initialization before main
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/start_v_main.PNG"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/start_v_main.PNG"> 
 <p align='center'><sub><strong>32-bit ELF binary compiled by gcc</strong></sub></p>
 </div>
 
@@ -35,7 +35,7 @@
 * Intel x86 and x86-64 use little-endian format. It is a format where multi-bytes datatype (e.g. integer) has its least significant byte stored in the lower address of main memory 
 * Value stored in RAM is in little-endian but when moved into a register will be in big-endian. This is why even though bytes representing an integer is flipped in memory, it will be in its original form when moved into a register
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/endianness.png"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/endianness.png"> 
 <p align='center'><sub><strong>integer 599 (0x257) in memory vs in register</strong></sub></p>
 </div>
 
@@ -44,7 +44,7 @@
 ---
 * Debugger reads and stores an instruction's first byte and then overwrites that first byte with 0xCC (INT3) to set a breakpoint at that instruction. When CPU hits the breakpoint (0xCC), OS kernel sends SIGTRAP signal to process, process execution is paused by the debugger, and debugger's internal lookup occurs to flip the original byte back
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/soft_bp.png"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/soft_bp.png"> 
 <p align='center'><sub><strong>software breakpoint</strong></sub></p>
 </div>
 
@@ -59,7 +59,7 @@
   * DR7: stores breakpoint conditions and the lengths of breakpoints for DR0-DR3
 * Before CPU attempts to execute an instruction, it first checks whether the address is currently enabled for a hardware breakpoint. If the address is stored in debug registers DR0–DR3 and the read, write, or execute conditions are met, an INT1 is fired and the process halts
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/hardware_bp.png" width="469" height="270"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/hardware_bp.png" width="469" height="270"> 
 <p align='center'><sub><strong>hardware breakpoint</strong></sub></p>
 </div>
 
@@ -69,7 +69,7 @@
 * Changes the permissions on a region, or page, of memory
 * Guard page: Any access to a guard page results in a one-time exception, and then the page returns to its original status. Memory breakpoint changes permission of the page to guard
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/memory_bp.png"> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/memory_bp.png"> 
 <p align='center'><sub><strong>memory breakpoint</strong></sub></p>
 </div>
 

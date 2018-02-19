@@ -12,7 +12,7 @@ __Why Reverse Engineering?__
 ---
 ### *<p align='center'> section overview </p>*
 ---
-* [miscellaneous](miscellaneous.md)
+* [Miscellaneous](Miscellaneous.md)
   * [Threads](int_0x7374617274.md#-threads-)
   * [start IS NOT main](int_0x7374617274.md#-start-is-not-main-)
   * [Random Number Generator](int_0x7374617274.md#-random-number-generator-)
