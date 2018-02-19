@@ -10,7 +10,7 @@
 ---
 #### *<p align='center'> User Inputs </p>*
 ---
-* How to pass user inputs to debugged program as arguments or/and as stdin
+* How to pass user inputs to debugged program as arguments or/and as stdin:
   * After starting GDB...
       ```gdb
       (gdb) run argument1 argument2 < file
@@ -20,7 +20,7 @@
 ---
 #### *<p align='center'> Automation </p>*
 ---
-* __-x Option__: puts the list of commands you want GDB to run when gdb starts in a file. Run GDB with the -x option like this:
+* __-x Option__: puts the list of commands you want GDB to run when gdb starts in a file and run GDB with the -x option
     ```bash
     gdb -x command_file program_to_debug
     ```
@@ -86,4 +86,4 @@
 </div>
 
 #
-<p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>
+<p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>

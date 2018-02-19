@@ -23,4 +23,4 @@
 * __Name Mangling__ is used to support Method Overloading (multiple functions with same name but accept different parameters). Since in PE or ELF format, a function is only labeled with its name
 
 #
-<p align='center'><a href="/contents/instruction-sets/ARM.md">ARM</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="Python_Reversing.md">Python Reversing</a></p>
+<p align='center'><a href="/contents/instruction-sets/ARM.md">ARM</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="Python_Reversing.md">Python Reversing</a></p>

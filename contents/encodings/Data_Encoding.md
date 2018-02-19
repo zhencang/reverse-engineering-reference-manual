@@ -4,11 +4,16 @@
 #### *<p align='center'> Definition </p>*
 ---
 * All forms of content modification for the purpose of hiding intent
+* Encoding is an easy way to hide readable strings from basic tools like GNU strings
 
 ---
 #### *<p align='center'> Caesar Cipher </p>*
 ---
-* Formed by shifting the letters of alphabet #’s characters to the left or right
+* Formed by shifting the letters of alphabet fixed numbers of characters to the left or right to encode
+<div align='center'> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/encodings/Data_Encoding/caesar_cipher.jpg"> 
+<p align='center'><sub><strong>caesar cipher by shifting alphabet 3 letters to the right to encode</strong></sub></p>
+</div>
 
 ---
 #### *<p align='center'> Single-Byte XOR Encoding </p>*
@@ -19,12 +24,10 @@
 * __Solutions To Single-Byte XOR Encoding's Weakness__: 
   * Null-preserving single-byte XOR encoding: if plaintext is NULL or key itself, then it will not be encoded via XOR
   * Generates the keystream used to XOR the data using a pseudorandom number generator 
-    * __Blum Blum Shub PRNG__: generic form: Value<sup>i+1</sup> = (Value<sup>i</sup> * Value<sup>i</sup>) % M. M is a constant  that is the product of 2 large primes and an initial V needs to be given. Actual key being xor-ed with the data is the lowest byte of current PRNG value
 
 ---
 #### *<p align='center'> Other Simple Encoding Scheme </p>*
 ---
-* __ADD, SUB__
 * __ROL, ROR__: Instructions rotate the bits within a byte right or left
 * __Multibyte__: XOR key is multibyte
 * __Chained or Loopback__: Use content itself as part of the key
@@ -44,4 +47,4 @@
 </div>
 
 #
-<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/int_0x7374617274.md">int 0x7374617274</a></p>
+<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/miscellaneous.md">miscellaneous</p>

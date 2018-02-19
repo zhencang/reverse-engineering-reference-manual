@@ -69,4 +69,4 @@
 * view a running program's process address space: __/proc/$pid/maps__
 
 #
-<p align='center'><a href="/contents/languages/Python_Reversing.md">Python Reversing</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>
+<p align='center'><a href="/contents/languages/Python_Reversing.md">Python Reversing</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>

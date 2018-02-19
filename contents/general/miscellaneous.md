@@ -17,7 +17,7 @@
 #### *<p align='center'> start IS NOT main </p>*
 ---
 * Entry point of a binary (start function) is not main. A program's startup code (how main is set up and called) depends on the compiler and the platform that the binary is compiled for
-* Even if no library is statically compiled into the binary, part of the .text section will contain code that is irrelevant to the source code
+* For C binary compiled by gcc, [crt0](https://en.wikipedia.org/wiki/Crt0) is usually linked into the program to perform initialization before main
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/start_v_main.PNG"> 
 <p align='center'><sub><strong>32-bit ELF binary compiled by gcc</strong></sub></p>
@@ -42,7 +42,7 @@
 ---
 #### *<p align='center'> Software Breakpoint </p>*
 ---
-* Debugger reads and stores the first byte of instruction and then overwrites that first byte with 0xCC (INT3). When CPU hits the breakpoint (0xCC), OS kernel sends SIGTRAP signal to process, process execution is paused by the debugger, and debugger's internal lookup occurs to flip the original byte back
+* Debugger reads and stores an instruction's first byte and then overwrites that first byte with 0xCC (INT3) to set a breakpoint at that instruction. When CPU hits the breakpoint (0xCC), OS kernel sends SIGTRAP signal to process, process execution is paused by the debugger, and debugger's internal lookup occurs to flip the original byte back
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/miscellaneous/soft_bp.png"> 
 <p align='center'><sub><strong>software breakpoint</strong></sub></p>
@@ -74,4 +74,4 @@
 </div>
 
 #
-<p align='center'><a href="/contents/encodings/Data_Encoding.md">Data Encoding</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="general.md">.general</a>] ~> <a href="/contents/tools/IDA_Tips.md">IDA Tips</a></p>
+<p align='center'><a href="/contents/encodings/Data_Encoding.md">Data Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="general.md">.general</a>] ~> <a href="/contents/tools/IDA_Tips.md">IDA Tips</a></p>

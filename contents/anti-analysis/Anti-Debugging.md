@@ -69,4 +69,4 @@
 * In C, function using the "constructor" attribute will execute before main()
 
 #
-<p align='center'><a href="Anti-Disassembly.md">Anti-Disassembly</a> <~ <a href="/README.md#table-of-contents">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Emulation.md">Anti-Emulation</a></p>
+<p align='center'><a href="Anti-Disassembly.md">Anti-Disassembly</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Emulation.md">Anti-Emulation</a></p>

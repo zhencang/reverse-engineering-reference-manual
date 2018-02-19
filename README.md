@@ -1,7 +1,5 @@
 # <p align='center'> Reverse Engineering Reference Manual (beta) </p>
 
-# .table-of-contents
-
 * [.general](contents/general/general.md)
   * [miscellaneous](contents/general/miscellaneous.md)
 * [.tools](contents/tools/tools.md)
