@@ -14,7 +14,7 @@ __Everything Is Structured. You Just Don't Know It Yet__
   * [Section Header Table](ELF_Files.md#-section-header-table-)
   * [Useful Compilation Options To Know For GCC](ELF_Files.md#-useful-compilation-options-to-know-for-gcc-)
   * [Stripped Binary](ELF_Files.md#-stripped-binary-)
-  * [Useful Tools To Analyze ELF File](ELF_Files.md#-useful-tools-to-analyze-elf-file-)
+  * [Useful Tools To Analyze ELF Executable](ELF_Files.md#-useful-tools-to-analyze-elf-executable-)
 * [PE Files](PE_Files.md)
   * [Overview](PE_Files.md#-overview-)
   * [PE File In Memory](PE_Files.md#-pe-file-in-memory-)

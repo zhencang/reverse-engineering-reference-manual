@@ -57,12 +57,13 @@
 * With stripped binary, gdb can’t even identify main. We can still try to identify main from the entry point using the command: __info file__. Also, can’t use disas since gdb does not know the bounds of a functions so it does not know which address range should be disassembled. Solution: use examine(x) command on address pointed by pc register like: __x/14i $pc__
 
 ---
-#### *<p align='center'> Useful Tools To Analyze ELF File </p>*
+#### *<p align='center'> Useful Tools To Analyze ELF Executable </p>*
 ---
 * display section headers: __readelf -S &lt;file&gt;__
 * display program headers and section to segment mapping: __readelf -l &lt;file&gt;__
-* display symbol tables: __readelf --syms &lt;file&gt;__ or __objdump -t &lt;file&gt;__
+* display symbols: __readelf --syms &lt;file&gt;__ or __objdump -t &lt;file&gt;__ or __nm &lt;file&gt;__
 * display a section's content: __objdump -s -j &lt;section name&gt; &lt;file&gt;__
+* display shared objects dependency: __ldd &lt;file&gt;__
 * trace library call: __ltrace -f &lt;file&gt;__
 * trace system call: __strace -f &lt;file&gt;__
 * decompile: check out __[RetDec](https://retdec.com/)__
