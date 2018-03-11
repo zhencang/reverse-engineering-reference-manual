@@ -23,4 +23,4 @@
 * Reading a byte sequence using the wrong encoding scheme
 
 #
-<p align='center'>><a href="Anti-Emulation.md">Anti-Emulation</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="Data_Encoding.md">Data Encoding</a></p>
+<p align='center'><a href="/contents/anti-analysis/Anti-Emulation.md">Anti-Emulation</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="Data_Encoding.md">Data Encoding</a></p>
