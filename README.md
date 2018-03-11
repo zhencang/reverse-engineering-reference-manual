@@ -20,7 +20,6 @@
   * [Anti-Disassembly](contents/anti-analysis/Anti-Disassembly.md)
   * [Anti-Debugging](contents/anti-analysis/Anti-Debugging.md)
   * [Anti-Emulation](contents/anti-analysis/Anti-Emulation.md)
-  * [Bonus](contents/anti-analysis/Bonus.md)
 * [.encodings](contents/encodings/encodings.md)
   * [String Encoding](contents/encodings/String_Encoding.md)
   * [Data Encoding](contents/encodings/Data_Encoding.md)
