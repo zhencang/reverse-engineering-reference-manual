@@ -1,4 +1,4 @@
-## *<p align='center'>.general</p>*
+## *<p align='center'> <a href="/contents/encodings/encodings.md"><-</a> .general</p>*
 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Introduction.PNG"> 
