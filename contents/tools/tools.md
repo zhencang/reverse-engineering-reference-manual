@@ -1,4 +1,4 @@
-## *<p align='center'>.tools</p>*
+## *<p align='center'><a href="/contents/general/general.md"><-</a>  .tools  <a href="/contents/instruction-sets/instruction-sets.md">-></a></p>*
 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/tools.jpg" width="375" height="322"> 
