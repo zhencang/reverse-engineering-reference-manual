@@ -38,4 +38,4 @@ __CISC vs RISC__
 * [Azeria Labs](https://azeria-labs.com/): from ARM assembly to ARM exploitation. If you want to learn about ARM, this is it 
 
 #
-<p align='center'><a href="/contents/tools/tools.md">.tools</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/languages/languages.md">.languages</a></p>
+<strong><p align='center'><a href="/contents/tools/tools.md">.tools</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> -> <a href="/contents/languages/languages.md">.languages</a></p></strong>

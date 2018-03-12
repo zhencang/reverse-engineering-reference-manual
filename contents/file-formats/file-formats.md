@@ -32,4 +32,4 @@ __Everything Is Structured. You Just Don't Know It Yet__
 * [Visual Reverse Engineering](https://www.youtube.com/watch?v=4bM3Gut1hIk): with binary visualization, it doesn't need to know how to parse the file format to provide useful information about the file that it's analyzing. Binary visualization not only can tells apart different file formats, it can also uncovers peculiarities within the same file format (e.g. packed vs not packed PE executable). [VELES](https://codisec.com/veles/) and [binvis](http://binvis.io/#/) are examples of popular free-to-use binary visualization tools
 
 #
-<p align='center'><a href="/contents/languages/languages.md">.languages</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/anti-analysis/anti-analysis.md">.anti-analysis</a></p>
+<strong><p align='center'><a href="/contents/languages/languages.md">.languages</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> -> <a href="/contents/anti-analysis/anti-analysis.md">.anti-analysis</a></p></strong>

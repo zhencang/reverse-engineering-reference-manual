@@ -42,4 +42,4 @@ __Not So Fast...__
 * [Al-Khaser](https://github.com/LordNoteworthy/al-khaser): a sample application that performs different types of common anti-analysis tricks
 
 #
-<p align='center'><a href="/contents/file-formats/file-formats.md">.file-formats</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/encodings/encodings.md">.encodings</a></p>
+<strong><p align='center'><a href="/contents/file-formats/file-formats.md">.file-formats</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> -> <a href="/contents/encodings/encodings.md">.encodings</a></p></strong>
