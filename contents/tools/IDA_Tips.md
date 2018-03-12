@@ -46,6 +46,7 @@
 * All the available graphs (beside __Proximity Browser__ and __Graph Overview__) can be found under _View_ -> _Graphs_
   * __Proximity Browser__ can be found under _View_ -> _Open Subviews_
   * __Graph Overview__ can be found under _View_ -> _Graph Overview_
+  * __NOTE__: "Flow Chart", "Function Calls", "Xrefs To", and "Xrefs From" graphs are only available in the licensed version of IDA  
 * When we hear IDA Graphs, most of us will think of IDA's __Graph View__, which shows how basic blocks of the function mouse cursor is on relate to each other, but IDA also provides many other useful graphs to aid with analysis. We will take a look at those other graphs below: 
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/proximity_browser.png">

@@ -28,20 +28,20 @@
 #### *<p align='center'> DOS Header </p>*
 ---
 * Starts at offset 0. The 2 fields of interest in the DOS header are __e_magic__ and __e_lfanew__. __e_magic__ contains the magic number 0x5A4D (MZ). __e_lfanew__ contains PE header's file offset
-* __e_lfanew__ field is necessary since between DOS Header and PE Header is the DOS Stub, which for backward compatibility prints "This program cannot be run in DOS mode" if a 32-bit PE file is ran in a 16-bit DOS environment
+* __e_lfanew__ field is necessary since PE Header does not directly follows DOS Header. In between is the DOS Stub, which for backward compatibility prints "This program cannot be run in DOS mode" if a 32-bit PE file is ran in a 16-bit DOS environment
 
 ---
 #### *<p align='center'> PE Header (IMAGE_NT_HEADERS) </p>*
 ---
 * __Signature__: always 0x00004550 ("PE00")
-* __IMAGE_FILE_HEADER (COFF Header)__: contains basic information on the file (e.g. target CPU, number of sections)
+* __IMAGE_FILE_HEADER (COFF Header)__: contains basic information on the file (e.g. target CPU, number of sections). Always 20 bytes long
 * __IMAGE_OPTIONAL_HEADER32 (PE Optional Header)__: contains most of the meaningful information. Can be further broken down into 3 parts:
   * __Standard Fields__: notable fields are MagicNumber and AddressOfEntryPoint
-    * __MagicNumber__: determines whether the image file uses 64-bit address space (PE32+) or 32-bit address space. PE32+ contained widened PE Optional Header
+    * __MagicNumber__: determines whether the file uses 64-bit address space (PE32+) or 32-bit address space. PE32+ contained widened PE Optional Header
     * __AddressOfEntryPoint__: RVA to the entry point function
   * __Windows Specific Fields (Additional Fields)__: notable fields are ImageBase, SectionAlignment, and SizeOfImage
-    * __ImageBase__: preferred address when loaded into memory
-    * __SectionAlignment__: alignment for section when loaded into memory such that a section's VA will always be a multiple of this value 
+    * __ImageBase__: preferred address when loading into memory
+    * __SectionAlignment__: alignment for section when loading into memory such that a section's VA will always be a multiple of this value 
     * __SizeOfImage__: size of image starting from image base to the last section rounded to the nearest multiple of SectionAlignment
   * __Data Directory (IMAGE_DATA_DIRECTORY)__: array of IMAGE_DATA_DIRECTORY structures that contains RVAs and sizes of many important data structures (e.g. imports, exports, base relocations). Locations of those data structures reside in sections. Data structures allows loader to quickly locate an important section. Here are the notable IMAGE_DATA_DIRECTORY entries:
     * __Program Exception Data__: pointed by IMAGE_DATA_DIRECTORY's entry IMAGE_DIRECTORY_ENTRY_EXCEPTION. It is an exception table that contains an array of IMAGE_RUNTIME_FUNCTION_ENTRY structures. Each IMAGE_RUNTIME_FUNCTION_ENTRY contains the address to an exception handler
@@ -57,7 +57,7 @@
 ---
 #### *<p align='center'> Overlay </p>*
 ---
-* data appended to end of a PE File. It is not loaded into memory
+* data appended to end of a PE File. It is not mapped into memory
 
 #
 <p align='center'><a href="ELF_Files.md">ELF Files</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="file-formats.md">.file-formats</a>] ~> <a href="/contents/anti-analysis/Obfuscation.md">Obfuscation</a></p>

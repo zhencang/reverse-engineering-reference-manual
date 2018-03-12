@@ -16,7 +16,7 @@
 ---
 #### *<p align='center'> Registers </p>*
 ---
-*There are 16 32-bit general-purpose registers (R0 - R15), but only the first 12 registers are for general purpose usage
+* There are 16 32-bit general-purpose registers (R0 - R15), but only the first 12 registers are for general purpose usage
   * R0 holds the return value from function call
   * R13 is the stack pointer (SP)
   * R14 is the link register (LR), which holds return address for function call
