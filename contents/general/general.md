@@ -29,4 +29,4 @@ __Why Reverse Engineering?__
 * [Reverse Engineering for Beginners](https://beginners.re/): a free and comprehensive book on reverse engineering
 
 #
-<p align='center'><a href="/contents/encodings/encodings.md">.encodings</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/tools/tools.md">.tools</a></p>
+<strong><p align='center'><a href="/contents/encodings/encodings.md">.encodings</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/tools/tools.md">.tools</a></p></strong>
