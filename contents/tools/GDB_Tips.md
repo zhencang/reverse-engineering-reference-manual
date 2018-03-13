@@ -74,6 +74,7 @@
 * __x (examine)__ command displays memory contents at a given address in the specified format
   * Since disas command won't work on stripped binary, x command can come in handy to display instructions from current program counter: __x/14i $pc__
 * __set__ command can be used to set temporary variable, change value in memory, or change value in register : __set $&lt;name&gt; = &lt;value&gt;__
+  * From user code, one can't directly access the instruction pointer; instruction pointer can only be edited through JMP, CALL, or RET. It's a different story when the program is under GDB though. Instruction pointer can be easily changed using the set command: __set $eip = &lt;address&gt;__ 
   * It is useful to be able to change the a flag in FLAGS/EFLAGS/RFLAGS (status register) to see how taking the unintended branch for a [JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) instruction will affect later program behavior. To update a flag, you just need to know the bit position of the flag you wanted to change 
     * To set the zero flag:
       ```bash
@@ -84,7 +85,6 @@
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/GDB_Tips/eflags.png" width="600" height="120">
 <p align='center'><sub><strong>each available flag and its corresponding bit position in the EFLAGS register</strong></sub></p>
 </div>
-  * From user code, one can't directly access the instruction pointer; instruction pointer can only be edited through JMP, CALL, or RET. It's a different story when the program is under GDB though. Instruction pointer can be easily changed using the set command: __set $eip = &lt;address&gt;__ 
 
 #
 <p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>
