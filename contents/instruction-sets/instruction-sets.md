@@ -11,7 +11,6 @@ __CISC vs RISC__
 ---
 * [x86](x86.md)
   * [Registers](x86.md#-registers-)
-  * [How EIP Can Be Updated](x86.md#-how-eip-can-be-updated-)
   * [Assembly to Machine Code Is Not One-To-One](x86.md#-assembly-to-machine-code-is-not-one-to-one-)
   * [Lost Of Type Information](x86.md#-lost-of-type-information-)
   * [Floating Point Arithmetic](x86.md#-floating-point-arithmetic-)
