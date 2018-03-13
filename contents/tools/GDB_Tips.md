@@ -80,12 +80,10 @@
       (gdb) set $ZF = 6                #bit position 6 in EFLAGS is zero flag
       (gdb) set $eflags |= (1 << $ZF)  #use that variable to set the zero flag bit
       ```
-
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/GDB_Tips/eflags.png" width="600" height="120">
 <p align='center'><sub><strong>each available flag and its corresponding bit position in the EFLAGS register</strong></sub></p>
 </div>
-
   * From user code, one can't directly access the instruction pointer; instruction pointer can only be edited through JMP, CALL, or RET. It's a different story when the program is under GDB though. Instruction pointer can be easily changed using the set command: __set $eip = &lt;address&gt;__ 
 
 #
