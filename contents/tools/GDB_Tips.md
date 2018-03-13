@@ -80,6 +80,7 @@
       (gdb) set $ZF = 6                #bit position 6 in EFLAGS is zero flag
       (gdb) set $eflags |= (1 << $ZF)  #use that variable to set the zero flag bit
       ```
+
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/GDB_Tips/eflags.png" width="600" height="120">
 <p align='center'><sub><strong>each available flag and its corresponding bit position in the EFLAGS register</strong></sub></p>
