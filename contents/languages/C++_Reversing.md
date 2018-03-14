@@ -1,4 +1,4 @@
-### [.languages](languages.md)[__C++ Reversing__]
+### <a href="/contents/instruction-sets/ARM.md"><-</a> [.languages](languages.md)[__C++ Reversing__] <a href="Python_Reversing.md">-></a>
 
 ---
 #### *<p align='center'> thiscall </p>*
@@ -23,4 +23,4 @@
 * __Name Mangling__: a technique to support Method Overloading (multiple functions with same name but accept different parameters), since a function in a PE or ELF file is only labeled with its name, by embedding parameters information into function name
 
 #
-<p align='center'><a href="/contents/instruction-sets/ARM.md">ARM</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="Python_Reversing.md">Python Reversing</a></p>
+<strong><p align='center'><a href="/contents/instruction-sets/ARM.md">ARM</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.languages</a>] -> <a href="Python_Reversing.md">Python Reversing</a></p></strong>

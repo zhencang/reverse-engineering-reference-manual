@@ -1,4 +1,4 @@
-### [.languages](languages.md)[__Python Reversing__]
+### <a href="C++_Reversing.md"><-</a> [.languages](languages.md)[__Python Reversing__] <a href="/contents/file-formats/ELF_Files.md">-></a>
 
 ---
 #### *<p align='center'> PVM (Python Virtual Machine) </p>*
@@ -29,4 +29,4 @@
     * Load will push the value it indexed onto the stack and store will store the value at the top of the stack into the indexed object
 
 #
-<p align='center'><a href="C++_Reversing.md">C++ Reversing</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.languages</a>] ~> <a href="/contents/file-formats/ELF_Files.md">ELF Files</a></p>
+<strong><p align='center'><a href="C++_Reversing.md">C++ Reversing</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.languages</a>] -> <a href="/contents/file-formats/ELF_Files.md">ELF Files</a></p></strong>

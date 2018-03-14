@@ -1,4 +1,4 @@
-### [.tools](tools.md)[__GDB Tips__]
+###  <a href="IDA_Tips.md"><-</a> [.tools](tools.md)[__GDB Tips__] <a href="/contents/instruction-sets/x86.md">-></a>
 
 ---
 #### *<p align='center'> Changing Default Settings </p>*
@@ -90,4 +90,4 @@
 * __call__ command allows one to call any function (local or library functions) in the debuggee's address space and see the return value of that function. The argument to call command can be symbol for a function or in the case of a stripped local function, an address    
 
 #
-<p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>
+<strong><p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] -> <a href="/contents/instruction-sets/x86.md">x86</a></p></strong>
