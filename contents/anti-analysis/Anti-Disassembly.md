@@ -18,7 +18,7 @@
 * __Opaque Predicate__: conditional construct that looks like conditional code but actually always evaluates to either true or false. For example, if the false branch is always processed first then the following sub-bullets will hold to cause incorrect disassembly:
   * __Jump Instructions With The Same Target__: JZ follows by JNZ. Essentially an unconditional jump. The bytes following JNZ instruction could be data but will be disassembled as code
   * __Jump Instructions With A Constant Condition__: XOR follows by JZ. It will always jump so bytes following false branch could be data but will be disassembled as code
-* __Branch Functions__: 
+* __Branch Functions__: CALL target modifies its own return address so that execution won't return to the instruction right after CALL. Like Opaque Predicate, the bytes following CALL could be data but will be disassembled as code
 * __Impossible Disassembly__: a byte is part of multiple instructions. Disassembler cannot represent a byte as part of two instructions. Either can the processor, but it doesn't have to because it just needs to execute the instructions 
 
 ---
