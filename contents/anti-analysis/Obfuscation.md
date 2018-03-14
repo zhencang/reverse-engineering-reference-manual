@@ -1,4 +1,4 @@
-### [.anti-analysis](anti-analysis.md)[__Obfuscation__]
+### <a href="/contents/file-formats/PE_Files.md"><-</a> [.anti-analysis](anti-analysis.md)[__Obfuscation__] <a href="Anti-Disassembly.md">-></a>
 
 ---
 #### *<p align='center'> Original Entry Point (OEP) Hiding </p>*
@@ -64,4 +64,4 @@
 * (Linux) uses dlopen to load the dynamic shared object and uses dlsym to find the address of a specific function within the shared object
 
 #
-<p align='center'><a href="/contents/file-formats/PE_Files.md">PE Files</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Disassembly.md">Anti-Disassembly</a></p>
+<strong><p align='center'><a href="/contents/file-formats/PE_Files.md">PE Files</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] -> <a href="Anti-Disassembly.md">Anti-Disassembly</a></p></strong>

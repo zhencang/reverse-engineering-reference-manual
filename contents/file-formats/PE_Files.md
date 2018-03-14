@@ -1,4 +1,4 @@
-### [.file-formats](file-formats.md)[__PE Files__]
+### <a href="ELF_Files.md"><-</a> [.file-formats](file-formats.md)[__PE Files__] <a href="/contents/anti-analysis/Obfuscation.md">-></a>
 
 ---
 #### *<p align='center'> Overview </p>*
@@ -60,4 +60,4 @@
 * data appended to end of a PE File. It is not mapped into memory
 
 #
-<p align='center'><a href="ELF_Files.md">ELF Files</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="file-formats.md">.file-formats</a>] ~> <a href="/contents/anti-analysis/Obfuscation.md">Obfuscation</a></p>
+<strong><p align='center'><a href="ELF_Files.md">ELF Files</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="file-formats.md">.file-formats</a>] -> <a href="/contents/anti-analysis/Obfuscation.md">Obfuscation</a></p></strong>

@@ -1,4 +1,4 @@
-### [.anti-analysis](anti-analysis.md)[__Anti-Emulation__]
+### <a href="Anti-Debugging.md"><-</a> [.anti-analysis](anti-analysis.md)[__Anti-Emulation__] <a href="/contents/encodings/String_Encoding.md">-></a>
 
 ---
 #### *<p align='center'> CPU Inconsistencies Detection </p>*
@@ -18,4 +18,4 @@
 * The number of cores under emulation will be less than the number of cores on host machine
 
 #
-<p align='center'><a href="Anti-Debugging.md">Anti-Debugging</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="/contents/encodings/String_Encoding.md">String Encoding</a></p>
+<strong><p align='center'><a href="Anti-Debugging.md">Anti-Debugging</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] -> <a href="/contents/encodings/String_Encoding.md">String Encoding</a></p></strong>

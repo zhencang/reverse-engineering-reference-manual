@@ -1,4 +1,4 @@
-### [.tools](tools.md)[__IDA Tips__]
+###  <a href="/contents/general/Miscellaneous.md"><-</a> [.tools](tools.md)[__IDA Tips__] <a href="GDB_Tips.md">-></a>
 
 ---
 #### *<p align='center'> Addresses Shown In IDA </p>*
@@ -85,4 +85,4 @@
 * __y__ to redefine function prototype
 
 #
-<p align='center'><a href="/contents/general/Miscellaneous.md">Miscellaneous</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="GDB_Tips.md">GDB_Tips</a></p>
+<strong><p align='center'><a href="/contents/general/Miscellaneous.md">Miscellaneous</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] -> <a href="GDB_Tips.md">GDB_Tips</a></p></strong>

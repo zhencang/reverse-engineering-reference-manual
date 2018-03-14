@@ -1,4 +1,4 @@
-### [.general](general.md)[__Miscellaneous__]
+### <a href="/contents/encodings/Data_Encoding.md"><-</a> [.general](general.md)[__Miscellaneous__] <a href="/contents/tools/IDA_Tips.md">-></a>
 
 ---
 #### *<p align='center'> Threads </p>*
@@ -74,4 +74,4 @@
 </div>
 
 #
-<p align='center'><a href="/contents/encodings/Data_Encoding.md">Data Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="general.md">.general</a>] ~> <a href="/contents/tools/IDA_Tips.md">IDA Tips</a></p>
+<strong><p align='center'><a href="/contents/encodings/Data_Encoding.md">Data Encoding</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="general.md">.general</a>] -> <a href="/contents/tools/IDA_Tips.md">IDA Tips</a></p></strong>

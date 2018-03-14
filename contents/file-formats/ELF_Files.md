@@ -1,4 +1,4 @@
-### [.file-formats](file-formats.md)[__ELF Files__]
+### <a href="/contents/languages/Python_Reversing.md"><-</a> [.file-formats](file-formats.md)[__ELF Files__] <a href="PE_Files.md">-></a>
 
 ---
 #### *<p align='center'> Overview </p>*
@@ -71,4 +71,4 @@
 * view a running program's process address space: __/proc/$pid/maps__
 
 #
-<p align='center'><a href="/contents/languages/Python_Reversing.md">Python Reversing</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.file-formats</a>] ~> <a href="PE_Files.md">PE Files</a></p>
+<strong><p align='center'><a href="/contents/languages/Python_Reversing.md">Python Reversing</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="languages.md">.file-formats</a>] -> <a href="PE_Files.md">PE Files</a></p></strong>

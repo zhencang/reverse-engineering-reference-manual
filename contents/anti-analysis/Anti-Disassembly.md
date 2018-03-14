@@ -1,9 +1,10 @@
-### [.anti-analysis](anti-analysis.md)[__Anti-Disassembly__]
+### <a href="Obfuscation.md"><-</a> [.anti-analysis](anti-analysis.md)[__Anti-Disassembly__] <a href="Anti-Debugging.md">-></a>
 
 ---
 #### *<p align='center'> Disassembly Techniques </p>*
 ---
-* __Linear Sweep__: disassembles one instruction at a time linearly. Problem: code section of nearly all binaries will also contain data that isn’t instructions 
+* __Linear Sweep__: disassembles one instruction at a time linearly 
+  * __Problem__: code section of nearly all binaries will also contain data that isn’t instructions 
 * __Recursive Descent__: disassembles program based on control flow 
   * __Example Implementation__: for conditional branch, it will process false branch first and note to disassemble true branch later. For unconditional branch, it will add destination to the end of list of places to disassemble in future and then disassemble from that list. For call instruction, it will disassemble the bytes after the call first and then the called location. If there is conflict between the true and false branch when disassembling, it will trust the one it disassembles first
 * [Binary Ninja disassembler uses both linear sweep and recursive descent to identify functions](https://binary.ninja/2017/11/06/architecture-agnostic-function-detection-in-binaries.html)
@@ -11,15 +12,19 @@
 ---
 #### *<p align='center'> Disassembly Desynchronization </p>*
 ---
-* __Opaque Predicate__: conditional construct that looks like conditional code but actually always evaluates to either true or false. It can cause disassembly tools that utilize recursive descent to produce incorrect program listing (disassembly) by taking advantage of the choices that the disassembler will make when it comes across a branch instruction ([JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) or [CALL](https://c9x.me/x86/html/file_module_x86_id_26.html)). For example, if the false branch is always processed first then the following sub-bullets will hold to cause incorrect disassembly:
+* __Definition__: techniques used to make disassemblers produce incorrect program listing (disassembly) 
+  * One popular approach to mess with disassemblers that utilize recursive descent is to take advantage of the choices that those disassemblers will make when they come across a branch instruction ([JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) or [CALL](https://c9x.me/x86/html/file_module_x86_id_26.html)) to make them disassemble the wrong bytes as instructions 
+    * __Examples__: Opaque Predicate, Branch Functions
+* __Opaque Predicate__: conditional construct that looks like conditional code but actually always evaluates to either true or false. For example, if the false branch is always processed first then the following sub-bullets will hold to cause incorrect disassembly:
   * __Jump Instructions With The Same Target__: JZ follows by JNZ. Essentially an unconditional jump. The bytes following JNZ instruction could be data but will be disassembled as code
   * __Jump Instructions With A Constant Condition__: XOR follows by JZ. It will always jump so bytes following false branch could be data but will be disassembled as code
+* __Branch Functions__: CALL target modifies its own return address so that execution won't return to the instruction right after CALL. Like Opaque Predicate, the bytes following CALL could be data but will be disassembled as code
 * __Impossible Disassembly__: a byte is part of multiple instructions. Disassembler cannot represent a byte as part of two instructions. Either can the processor, but it doesn't have to because it just needs to execute the instructions 
 
 ---
 #### *<p align='center'> Processer-Based Control Indirection </p>*
 ---
-* __CALL Instruction Abuse__: using CALL instruction to jump to a location that is not necessary the entry point of another function. Furthermore, the return address pushed onto the stack by CALL can be discarded with the instruction ADD ESP, 4. This will cause false disassembly since the disassembler will try label CALL destination as a function's entry point when it's not
+* __CALL Instruction Abuse__: using CALL instruction to jump to a location that is not necessary the entry point of another function. Furthermore, the return address pushed onto the stack by CALL can be discarded with the instruction "ADD ESP, 4". This will cause false disassembly since the disassembler will try label CALL destination as a function's entry point when it's not
 * __Return Pointer Abuse__: RET is used to jump to function or other location instead of returning from function using the PUSH, RET sequence. Disassembler won’t show any code cross-reference to the target being jumped to. But most importantly, disassembler will prematurely terminate the function since RET is supposed to be used for returning from function, resulting in false disassembly
 
 ---
@@ -36,4 +41,4 @@
   * If you remove the section header table, disassembler/debugger will have to rely on program headers even though program headers give us less information. For example, .text, .rodata, and .dynsym all belong to the same segment. And without section header table, we won't be able to differentiate between the sections within a segment. But fully relying on program headers can also lead to failure. For example, another technique to make IDA fail to load an ELF file is to find a program header that is not required for loading and change the offset field to point to a location that is outside the binary
 
 #
-<p align='center'><a href="Obfuscation.md">Obfuscation</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Debugging.md">Anti-Debugging</a></p>
+<strong><p align='center'><a href="Obfuscation.md">Obfuscation</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] -> <a href="Anti-Debugging.md">Anti-Debugging</a></p></strong>

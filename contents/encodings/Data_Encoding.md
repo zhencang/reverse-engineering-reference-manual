@@ -1,4 +1,4 @@
-### [.encodings](encodings.md)[__Data Encoding__]
+### <a href="String_Encoding.md"><-</a> [.encodings](encodings.md)[__Data Encoding__] <a href="/contents/general/Miscellaneous.md">-></a>
 
 ---
 #### *<p align='center'> Definition </p>*
@@ -47,4 +47,4 @@
 </div>
 
 #
-<p align='center'><a href="String_Encoding.md">String Encoding</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] ~> <a href="/contents/general/Miscellaneous.md">Miscellaneous</p>
+<strong><p align='center'><a href="String_Encoding.md">String Encoding</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="encodings.md">.encodings</a>] -> <a href="/contents/general/Miscellaneous.md">Miscellaneous</p></strong>

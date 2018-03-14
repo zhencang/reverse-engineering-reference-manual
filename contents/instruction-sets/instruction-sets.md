@@ -1,4 +1,4 @@
-## *<p align='center'>.instruction-sets</p>*
+## *<p align='center'><a href="/contents/tools/tools.md"><-</a>  .instruction-sets  <a href="/contents/languages/languages.md">-></a></p>*
 
 __Interface Between Software And Hardware__
 * The idea of a general purpose computer was conceived in 1837 by [Charles Babbage](https://en.wikipedia.org/wiki/Analytical_Engine), but a working general purpose computer ([ENIAC](http://www.computerhistory.org/revolution/birth-of-the-computer/4/78)) was not built until 1945. Earlier computers such as [Atanasoff–Berry](http://www4.ncsu.edu/~belail/The_Introduction_of_Electronic_Computing/Atanasoff-Berry_Computer.html) (used to solve linear equations) and [Bombe](http://www.cryptomuseum.com/crypto/bombe/) (used for deciphering Enigma encrypted messages) are special-purpose computers that are hard-wired to perform a specific task, which means that you are unable to utilize their underlying hardware to do anything else. An instruction set is the gateway to utilizing a general purpose computer's flexibility, allowing one to instruct a re-programmable (general-purpose) computer on how to interact with its underlying hardware to perform tasks ranging from weather prediction to space shuttle guidance while abstracting away the implementation details of those hardware components. It presents that gateway in human-readable mnemonics (English words), where each mnemonic has an unique set of zeros and ones that corresponds to an operation a CPU with the same instruction set implementation would know how to perform. An instruction set is said to be [Turing Complete](https://www.youtube.com/watch?v=RPQD7-AOjMI) if it can perform any computational task. The followings instruction sets I will talk about are all Turing Complete. On a funny note, it turns out that [one instruction from x86 is enough to be Turing Complete](https://www.cl.cam.ac.uk/~sd601/papers/mov.pdf).
@@ -11,7 +11,6 @@ __CISC vs RISC__
 ---
 * [x86](x86.md)
   * [Registers](x86.md#-registers-)
-  * [How EIP Can Be Updated](x86.md#-how-eip-can-be-updated-)
   * [Assembly to Machine Code Is Not One-To-One](x86.md#-assembly-to-machine-code-is-not-one-to-one-)
   * [Lost Of Type Information](x86.md#-lost-of-type-information-)
   * [Floating Point Arithmetic](x86.md#-floating-point-arithmetic-)
@@ -38,4 +37,4 @@ __CISC vs RISC__
 * [Azeria Labs](https://azeria-labs.com/): from ARM assembly to ARM exploitation. If you want to learn about ARM, this is it 
 
 #
-<p align='center'><a href="/contents/tools/tools.md">.tools</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> ~> <a href="/contents/languages/languages.md">.languages</a></p>
+<strong><p align='center'><a href="/contents/tools/tools.md">.tools</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a> -> <a href="/contents/languages/languages.md">.languages</a></p></strong>
