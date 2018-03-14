@@ -20,7 +20,7 @@
 ---
 #### *<p align='center'> Automation </p>*
 ---
-* __-x Option__: puts the list of commands you want GDB to run when gdb starts in a file and run GDB with the -x option
+* __-x Option__: puts the list of commands you want GDB to run when GDB starts in a file and run GDB with the -x option
     ```bash
     gdb -x command_file program_to_debug
     ```
@@ -33,6 +33,7 @@
      > end
      (gdb)
      ```
+* __display &lt;arg&gt;__: display content of &lt;arg&gt; everytime GDB stops (either due to single-stepping or breakpoints). &lt;arg&gt; can be either a convenience variable, memory location, or register
 
 ---
 #### *<p align='center'> Ways To Pause Debuggee </p>*
@@ -60,10 +61,10 @@
 ---
 #### *<p align='center'> Useful Commands </p>*
 ---
-* __apropos &lt;arg&gt;__ command searches through all gdb commands/documentations for &lt;arg&gt; and displays matched command/documentation pairs  
+* __apropos &lt;arg&gt;__ command searches through all GDB commands/documentations for &lt;arg&gt; and displays matched command/documentation pairs  
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/GDB_Tips/apropos_ex.png" width="600">
-<p align='center'><sub><strong>gdb output from 'apropos mapping'</strong></sub></p>
+<p align='center'><sub><strong>GDB output from 'apropos mapping'</strong></sub></p>
 </div>
 
 * __i (info)__ command displays information on the item specified to the right of it
@@ -73,7 +74,7 @@
   * __i all r__: shows the values in all registers at that point of execution, such as FPU and XMM registers  
 * __x (examine)__ command displays memory contents at a given address in the specified format
   * Since disas command won't work on stripped binary, x command can come in handy to display instructions from current program counter: __x/14i $pc__
-* __set__ command can be used to set temporary variable, change value in memory, or change value in register : __set $&lt;name&gt; = &lt;value&gt;__
+* __set__ command can be used to set convenience variable, change value in memory, or change value in register : __set $&lt;name&gt; = &lt;value&gt;__
   * From user code, one can't directly access the instruction pointer; instruction pointer can only be edited through JMP, CALL, or RET. It's a different story when the program is under GDB though. Instruction pointer can be easily changed using the set command: __set $eip = &lt;address&gt;__ 
   * It is useful to be able to change the a flag in FLAGS/EFLAGS/RFLAGS (status register) to see how taking the unintended branch for a [JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) instruction will affect later program behavior. To update a flag, you just need to know the bit position of the flag you wanted to change 
     * To set the zero flag:
@@ -85,6 +86,8 @@
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/GDB_Tips/eflags.png" width="600" height="120">
 <p align='center'><sub><strong>each available flag and its corresponding bit position in the EFLAGS register</strong></sub></p>
 </div>
+
+* __call__ command allows one to call any function (local or library functions) in the debuggee's address space and see the return value of that function. The argument to call command can be symbol for a function or in the case of a stripped local function, an address    
 
 #
 <p align='center'><a href="IDA_Tips.md">IDA_Tips</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="tools.md">.tools</a>] ~> <a href="/contents/instruction-sets/x86.md">x86</a></p>
