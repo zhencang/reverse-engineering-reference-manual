@@ -1,4 +1,4 @@
-### [.general](general.md)[__Miscellaneous__]
+### <a href="/contents/encodings/encodings.md"><-</a> [.general](general.md)[__Miscellaneous__] <a href="/contents/tools/tools.md">-></a>
 
 ---
 #### *<p align='center'> Threads </p>*
