@@ -1,4 +1,4 @@
-### [.anti-analysis](anti-analysis.md)[__Anti-Disassembly__]
+### <a href="Obfuscation.md"><-</a> [.anti-analysis](anti-analysis.md)[__Anti-Disassembly__] <a href="Anti-Debugging.md">-></a>
 
 ---
 #### *<p align='center'> Disassembly Techniques </p>*
@@ -41,4 +41,4 @@
   * If you remove the section header table, disassembler/debugger will have to rely on program headers even though program headers give us less information. For example, .text, .rodata, and .dynsym all belong to the same segment. And without section header table, we won't be able to differentiate between the sections within a segment. But fully relying on program headers can also lead to failure. For example, another technique to make IDA fail to load an ELF file is to find a program header that is not required for loading and change the offset field to point to a location that is outside the binary
 
 #
-<p align='center'><a href="Obfuscation.md">Obfuscation</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Debugging.md">Anti-Debugging</a></p>
+<strong><p align='center'><a href="Obfuscation.md">Obfuscation</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] -> <a href="Anti-Debugging.md">Anti-Debugging</a></p></strong>

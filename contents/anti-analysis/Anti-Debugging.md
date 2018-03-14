@@ -1,4 +1,4 @@
-### [.anti-analysis](anti-analysis.md)[__Anti-Debugging__]
+### <a href="Anti-Disassembly.md"><-</a> [.anti-analysis](anti-analysis.md)[__Anti-Debugging__] <a href="Anti-Emulation.md">-></a>
 
 ---
 #### *<p align='center'> Leveraging OS to Detect Debugger's Presence </p>*
@@ -70,4 +70,4 @@
 * Make it harder to find anti-debugging checks by executing them before main()
 
 #
-<p align='center'><a href="Anti-Disassembly.md">Anti-Disassembly</a> <~ <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] ~> <a href="Anti-Emulation.md">Anti-Emulation</a></p>
+<strong><p align='center'><a href="Anti-Disassembly.md">Anti-Disassembly</a> <- <a href="/README.md#-reverse-engineering-reference-manual-beta-">RERM</a>[<a href="anti-analysis.md">.anti-analysis</a>] -> <a href="Anti-Emulation.md">Anti-Emulation</a></p></strong>
