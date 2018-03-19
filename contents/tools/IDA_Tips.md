@@ -65,7 +65,7 @@
 <p align='center'><sub><strong>Function Calls: printable non-interactive 'Proximity View.' Photo courtesy of <a href="http://scratchpad.wikia.com/wiki/Reverse_Engineering_Mentoring_Lesson_005">Scratchpad</a></strong></sub></p>
 </div>
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/xrefs_to.png" width="90%" height="90%">
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/xrefs_to.png" width="40%" height="40%">
 <p align='center'><sub><strong>Xrefs To: function call graph to current function. Photo courtesy of <a href="http://resources.infosecinstitute.com/ida-cross-references-xrefs/">Infosec Institute</a></strong></sub></p>
 </div>
 <div align='center'> 
