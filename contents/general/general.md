@@ -13,13 +13,13 @@ __Why Reverse Engineering?__
 ### *<p align='center'> section overview </p>*
 ---
 * [Miscellaneous](Miscellaneous.md)
-  * [Threads](int_0x7374617274.md#-threads-)
-  * [Start IS NOT Main](int_0x7374617274.md#-start-is-not-main-)
-  * [Random Number Generator](int_0x7374617274.md#-random-number-generator-)
-  * [Endianness](int_0x7374617274.md#-endianness-)
-  * [Software Breakpoint](int_0x7374617274.md#-software-breakpoint-)
-  * [Hardware Breakpoint](int_0x7374617274.md#-hardware-breakpoint-)
-  * [Memory Breakpoint](int_0x7374617274.md#-memory-breakpoint-)
+  * [Threads](Miscellaneous.md#-threads-)
+  * [Start IS NOT Main](Miscellaneous.md#-start-is-not-main-)
+  * [Random Number Generator](Miscellaneous.md#-random-number-generator-)
+  * [Endianness](Miscellaneous.md#-endianness-)
+  * [Software Breakpoint](Miscellaneous.md#-software-breakpoint-)
+  * [Hardware Breakpoint](Miscellaneous.md#-hardware-breakpoint-)
+  * [Memory Breakpoint](Miscellaneous.md#-memory-breakpoint-)
 
 ---
 ### *<p align='center'> further readings </p>*
