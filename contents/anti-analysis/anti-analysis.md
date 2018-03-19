@@ -28,7 +28,7 @@ __Not So Fast...__
   * [Breakpoint Detection](Anti-Debugging.md#-breakpoint-detection-)
   * [Interrupts](Anti-Debugging.md#-interrupts-)
   * [Timing Checks](Anti-Debugging.md#-timing-checks-)
-  * [Detection Before main()](Anti-Debugging.md#-detection-before-main-)
+  * [Detection Before Main](Anti-Debugging.md#-detection-before-main-)
 * [Anti-Emulation](Anti-Emulation.md)
   * [Detection through Syscall](Anti-Emulation.md#-detection-through-syscall-)
   * [CPU Inconsistencies Detection](Anti-Emulation.md#-cpu-inconsistencies-detection-)

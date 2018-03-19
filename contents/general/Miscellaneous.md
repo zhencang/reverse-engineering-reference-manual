@@ -14,7 +14,7 @@
 </div>
 
 ---
-#### *<p align='center'> start IS NOT main </p>*
+#### *<p align='center'> Start IS NOT Main </p>*
 ---
 * Entry point of a binary (start function) is not main. A program's startup code (how main is set up and called) depends on the compiler and the platform that the binary is compiled for
 * For C binary compiled by gcc, [crt0](https://en.wikipedia.org/wiki/Crt0) is usually linked into the program to perform initialization before main

@@ -63,7 +63,7 @@
 * __rdtsc Instruction (0x0F31)__: this instruction returns the count of the number of ticks since the last system reboot as a 64-bit value placed into EDX:EAX. Simply execute this instruction twice and compare the difference between the two readings
   
 ---
-#### *<p align='center'> Detection Before main() </p>*
+#### *<p align='center'> Detection Before Main </p>*
 ---
 * __TLS Callbacks (Windows)__: most debuggers start at the program’s entry point as defined by the PE header. TlsCallback is traditionally used to initialze thread-specific data before a thread runs, so TlsCallback is called before the entry point and therefore can execute secretly in a debugger
 * In C, function using the "constructor" attribute will execute before main()

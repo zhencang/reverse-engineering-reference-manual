@@ -76,7 +76,7 @@
   * Since disas command won't work on stripped binary, x command can come in handy to display instructions from current program counter: __x/14i $pc__
 * __set__ command can be used to set convenience variable, change value in memory, or change value in register : __set $&lt;name&gt; = &lt;value&gt;__
   * From user code, one can't directly access the instruction pointer; instruction pointer can only be edited through JMP, CALL, or RET. It's a different story when the program is under GDB though. Instruction pointer can be easily changed using the set command: __set $eip = &lt;address&gt;__ 
-  * It is useful to be able to change the a flag in FLAGS/EFLAGS/RFLAGS (status register) to see how taking the unintended branch for a [JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) instruction will affect later program behavior. To update a flag, you just need to know the bit position of the flag you wanted to change 
+  * It is useful to be able to change a flag in FLAGS/EFLAGS/RFLAGS (status register) to see how taking the unintended branch for a [JCC](https://c9x.me/x86/html/file_module_x86_id_146.html) instruction will affect later program behavior. To update a flag, you just need to know the bit position of the flag you wanted to change 
     * To set the zero flag:
       ```bash
       (gdb) set $ZF = 6                #bit position 6 in EFLAGS is zero flag

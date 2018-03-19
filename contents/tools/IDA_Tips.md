@@ -46,10 +46,10 @@
 * All the available graphs (beside __Proximity Browser__ and __Graph Overview__) can be found under _View_ -> _Graphs_
   * __Proximity Browser__ can be found under _View_ -> _Open Subviews_
   * __Graph Overview__ can be found under _View_ -> _Graph Overview_
-  * __NOTE__: "Flow Chart", "Function Calls", "Xrefs To", and "Xrefs From" graphs are only available in the licensed version of IDA  
+  * __NOTE__: __Flow Chart__, __Function Calls__, __Xrefs To__, and __Xrefs From__ graphs are only available in the licensed version of IDA  
 * When we hear IDA Graphs, most of us will think of IDA's __Graph View__, which shows how basic blocks of the function mouse cursor is on relate to each other, but IDA also provides many other useful graphs to aid with analysis. We will take a look at those other graphs below: 
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/proximity_browser.png">
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/proximity_browser.png" width="80%" height="80%">
 <p align='center'><sub><strong>Proximity Browser: interactive function call graph of whole binary</strong></sub></p>
 </div>
 <div align='center'> 
@@ -61,16 +61,16 @@
 <p align='center'><sub><strong>Flow Chart: printable 'Graph View.' Photo courtesy of <a href="https://www.hex-rays.com/products/ida/support/tutorials/unpack_pe/5.gif">Hex-Rays</a></strong></sub></p>
 </div>
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/function_calls.png">
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/function_calls.png" width="70%" height="70%">
 <p align='center'><sub><strong>Function Calls: printable non-interactive 'Proximity View.' Photo courtesy of <a href="http://scratchpad.wikia.com/wiki/Reverse_Engineering_Mentoring_Lesson_005">Scratchpad</a></strong></sub></p>
 </div>
 <div align='center'> 
 <img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/xrefs_to.png">
-<p align='center'><sub><strong>Xrefs To: function call graph to current function. Photo courtesy of <a href="https://www.aldeid.com/w/images/b/bf/Ida-pro-graph-functions-002.png">aldeid</a></strong></sub></p>
+<p align='center'><sub><strong>Xrefs To: function call graph to current function. Photo courtesy of <a href="http://resources.infosecinstitute.com/ida-cross-references-xrefs/">Infosec Institute</a></strong></sub></p>
 </div>
 <div align='center'> 
-<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/xrefs_from.jpg">
-<p align='center'><sub><strong>Xrefs From: function call graph from current function. Photo courtesy of <a href="http://www.hexblog.com/?p=99">Hex Blog</a></strong></sub></p>
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/tools/IDA_Tips/xrefs_from.png">
+<p align='center'><sub><strong>Xrefs From: function call graph from current function. Photo courtesy of <a href="http://resources.infosecinstitute.com/ida-cross-references-xrefs/">Infosec Institute</a></strong></sub></p>
 </div>
 
 ---

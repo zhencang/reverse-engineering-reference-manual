@@ -16,7 +16,7 @@ __Different Languages' Implementations From A Reversing Perspective (Compiled)__
 ### *<p align='center'> section overview </p>*
 ---
 * [C++ Reversing](C++_Reversing.md)
-  * [thiscall](C++_Reversing.md#-thiscall-)
+  * [Thiscall](C++_Reversing.md#-thiscall-)
   * [How An Object Is Represented](C++_Reversing.md#-how-an-object-is-represented-)
   * [Name Mangling](C++_Reversing.md#-name-mangling-)
 * [Python Reversing](Python_Reversing.md)
