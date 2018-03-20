@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yellowbyte/reverse-engineering-reference-manual.svg?branch=ci)](https://travis-ci.org/yellowbyte/reverse-engineering-reference-manual)
+
 # <p align='center'> Reverse Engineering Reference Manual (beta) </p>
 
 * [.general](contents/general/general.md)
@@ -29,4 +31,4 @@ __NOTE(1)__: if you have any question or need further clarification on the conte
 
 __NOTE(2)__: beta? Yes. In the coming months I'm planning on adding more pictures and diagrams to the current content. Plans to add more sections will continue after revamping it.
 
-__NOTE(3)__: images found in this reference manual are a mix of ones I created myself and ones I found on the internet. All images and their respective sources can be found under the images directory.
+__NOTE(3)__: CI? We all hate broken links. The CI is my attempt to make sure all the external links in this repository are still working. And if any of them is broken, I can easily pinpoint which one and swiftly update it with another relevant link.
