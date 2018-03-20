@@ -10,12 +10,12 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 def test_working_links():
     '''
-    Make sure all the links in this repo works
+    Make sure all the links in this repo still works
     '''
-    for basedir, subdirs, files in os.walk("./../contents/"):
+    for basedir, _, files in os.walk("./../contents/"):
         for f in files:
             filepath = os.path.join(basedir,f)
             with open(filepath) as current_file:
                 links = link_regex.findall(current_file.read())
                 for link in links:
-                    assert requests.get(link, headers=headers).status_code == 200, "Link: "+link+" in "+filepath+" is broken"
+                    assert requests.get(link, headers=headers).status_code == 200, link+" in "+filepath+" is broken"
