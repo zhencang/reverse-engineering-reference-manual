@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yellowbyte/reverse-engineering-reference-manual.svg?branch=ci)](https://travis-ci.org/yellowbyte/reverse-engineering-reference-manual)
+
 # <p align='center'> Reverse Engineering Reference Manual (beta) </p>
 
 * [.general](contents/general/general.md)
